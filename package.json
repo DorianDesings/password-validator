@@ -1,7 +1,7 @@
 {
 	"name": "first-project",
 	"version": "0.0.0",
-	"homepage": "http://DorianDesings.github.io/password-validator",
+	"homepage": "https://doriandesings.github.io/password-validator/",
 	"scripts": {
 		"dev": "vite",
 		"build": "vite build",
