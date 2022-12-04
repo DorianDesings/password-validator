@@ -6,7 +6,9 @@
 		"build": "vite build",
 		"preview": "vite preview",
 		"format": "prettier --write .",
-		"lint": "eslint . --ext .js,.jsx --fix"
+		"lint": "eslint . --ext .js,.jsx --fix",
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d build"
 	},
 	"dependencies": {
 		"react": "18.2.0",
@@ -22,6 +24,7 @@
 		"eslint-plugin-n": "15.3.0",
 		"eslint-plugin-promise": "6.1.1",
 		"eslint-plugin-react": "7.31.10",
+		"gh-pages": "^4.0.0",
 		"prettier": "2.7.1",
 		"sass": "^1.56.1",
 		"uuid": "^9.0.0",
